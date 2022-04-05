@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ["hc-reimbursement-portal.herokuapp.com/", "127.0.0.1:8000"]
 # Application definition
 
 INSTALLED_APPS = [
+    "whitenoise.runserver_nostatic",
     "user.apps.UserConfig",
     "django.contrib.admin",
     "django.contrib.auth",
