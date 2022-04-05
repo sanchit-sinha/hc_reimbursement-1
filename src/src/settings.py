@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-bo70f03+&+5l2mb(+*_xob#f9u3!x0tv!qbs+a-grg1lzo!w=c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["hc-reimbursement-portal.herokuapp.com/", "127.0.0.1:8000"]
+ALLOWED_HOSTS = ["*", "hc-reimbursement-portal.herokuapp.com", "127.0.0.1:8000"]
 
 
 # Application definition
